@@ -16,21 +16,21 @@ class CreditCard extends StatefulWidget {
 }
 
 class _CreditCardState extends State<CreditCard> {
-  final Map<String, Color> colorMap = {
+  final Map<String, Color> colorMap = const {
     "red": Color(0xFFA6070C),
     "green": Color(0xFF007140),
     "orange": Color(0xFFE84F1D),
     "yellow": Color(0xFFFAAF18),
   };
 
-  final Map<String, String> imageMap = {
+  final Map<String, String> imageMap = const {
     "yellow": "assets/EZZE Design Image.png",
     "orange": "assets/EZZE Design Image-1.png",
     "red": "assets/EZZE Design Image-2.png",
     "green": "assets/EZZE Design Image-3.png",
   };
 
-  final creditCardIcons = [
+  final creditCardIcons = const [
     FontAwesomeIcons.ccAmazonPay,
     FontAwesomeIcons.ccApplePay,
     FontAwesomeIcons.ccMastercard,
